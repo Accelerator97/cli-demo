@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "lint:ts": "eslint --fix"
+    "lint:ts": "eslint --fix",
+    "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\""
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "globals": "16.0.0",
     "typescript-eslint": "8.28.0",
     "@typescript-eslint/eslint-plugin": "8.28.0",
-    "eslint-plugin-simple-import-sort": "12.1.1"
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "cspell": "8.18.1"
   }
 }
