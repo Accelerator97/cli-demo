@@ -1,9 +1,10 @@
+
+
 import { program } from "commander";
 
 import { commandPluginDeploy } from "./commands/deploy";
 import { commandPluginInit } from "./commands/init";
 import { registerCommand } from "./registerCommand";
-
 // const commands_descriptions_zh = {
 //   init: "初始化项目",
 //   deploy: "部署项目",
