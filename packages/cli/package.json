@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "./build/index.js",
   "module": "./dist/index.js",
-  "type": "module",
   "bin": {
     "miaoma": "./bin/miaoma"
   },
@@ -17,6 +16,7 @@
   "description": "",
   "devDependencies": {
     "tsup": "8.4.0",
-    "@types/node": "20.17.28"
+    "@types/node": "20.17.28",
+    "commander": "13.1.0"
   }
 }
