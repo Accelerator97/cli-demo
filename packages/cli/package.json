@@ -1,0 +1,22 @@
+{
+  "name": "@miaoma-cli-demo/cli",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "module": "./dist/index.js",
+  "type": "module",
+  "bin": {
+    "miaoma": "./bin/miaoma"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsup": "8.4.0",
+    "@types/node": "20.17.28"
+  }
+}
