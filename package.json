@@ -5,7 +5,14 @@
   "type": "module",
   "scripts": {
     "lint:ts": "eslint --fix",
-    "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\""
+    "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
+    "commit": "git-cz",
+    "prepare": "husky"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +25,10 @@
     "typescript-eslint": "8.28.0",
     "@typescript-eslint/eslint-plugin": "8.28.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "cspell": "8.18.1"
+    "cspell": "8.18.1",
+    "commitizen": "4.3.1",
+    "cz-git": "1.11.1",
+    "husky": "9.1.7",
+    "commitlint": "19.8.0"
   }
 }
